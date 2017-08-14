@@ -136,9 +136,13 @@ echo "</tr>";
 				<br>				<br>
 				<br>
  <label>E-mail: <input type="email" ng-model="user.email" /></label><br />
+				form name="myForm">
+<input name="myInput" ng-model="myInput" type="email">
+</form>
 
 <p>The input's valid state is:</p>
-<h1>{{myForm.myInput.$valid}}</h1> 
+<h1>{{myForm.myInput.$valid}}</h1
+
 				<div class="footer">
 					<!--<nav class="footer-nav">
 						<ul>
